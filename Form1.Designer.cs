@@ -36,6 +36,7 @@
             // 
             // dataGridView1
             // 
+            dataGridView1.BackgroundColor = Color.DarkKhaki;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Location = new Point(477, 34);
             dataGridView1.Name = "dataGridView1";
@@ -44,6 +45,7 @@
             // 
             // textBox1
             // 
+            textBox1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             textBox1.Location = new Point(78, 34);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
@@ -55,7 +57,7 @@
             // 
             scan.BackColor = Color.White;
             scan.FlatStyle = FlatStyle.Flat;
-            scan.Font = new Font("Sitka Display", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            scan.Font = new Font("Microsoft JhengHei", 24F, FontStyle.Regular, GraphicsUnit.Point, 0);
             scan.Location = new Point(316, 472);
             scan.Name = "scan";
             scan.Size = new Size(299, 66);
@@ -68,6 +70,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.Menu;
             ClientSize = new Size(961, 582);
             Controls.Add(scan);
             Controls.Add(textBox1);
