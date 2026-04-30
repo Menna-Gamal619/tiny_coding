@@ -36,17 +36,17 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(93, 100);
+            this.textBox1.Location = new System.Drawing.Point(12, 12);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(231, 133);
+            this.textBox1.Size = new System.Drawing.Size(485, 286);
             this.textBox1.TabIndex = 0;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(341, 355);
+            this.button1.Location = new System.Drawing.Point(448, 386);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(123, 52);
+            this.button1.Size = new System.Drawing.Size(108, 52);
             this.button1.TabIndex = 1;
             this.button1.Text = "Submit";
             this.button1.UseVisualStyleBackColor = true;
@@ -55,18 +55,18 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(422, 12);
+            this.dataGridView1.Location = new System.Drawing.Point(518, 12);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(554, 286);
+            this.dataGridView1.Size = new System.Drawing.Size(485, 286);
             this.dataGridView1.TabIndex = 2;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1183, 450);
+            this.ClientSize = new System.Drawing.Size(1014, 517);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
